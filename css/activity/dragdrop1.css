@@ -1,0 +1,52 @@
+.dragDrop1 .drag-item {
+    float: left;
+    padding: 2px;
+    height: 30px;
+    border: 2px solid darkblue;
+    width: 139px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffffff;
+    vertical-align: middle !important;
+}
+
+.dragDrop1 .drag-target {
+    position: relative;
+    padding: 2px;
+    border: 2px solid darkred;
+    width: 200px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    z-index: 100;
+}
+
+.dragdrop1-good {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: -2px;
+    color: white !important;
+    background-color: green !important;
+    cursor: default;
+}
+
+.dragdrop1-bad {
+    background-color: red !important;
+}
+
+.dragDrop1 .choiceContainer {
+    position: relative;
+    background-color: #f5f5ce;
+    margin: 10px;
+    padding: 20px;
+    z-index: 100;
+}
+
+.dragDrop1 .targetsContainer {
+    position: absolute;
+    height: 0px;
+}

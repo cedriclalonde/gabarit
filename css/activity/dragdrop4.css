@@ -1,0 +1,68 @@
+.dragDrop4 .drag-item {
+    float: left;
+    padding: 2px;
+    height: 30px;
+    border: 1px solid;
+    width: 119px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 100%;
+    vertical-align: middle !important;
+}
+
+.choiceContainer {
+    position: relative;
+    background-color: #f5f5ce;
+    margin: 10px;
+    padding: 20px;
+}
+
+.dragdrop4-good {
+    opacity: 0.8;
+    color: white !important;
+    background-color: green !important;
+    cursor: default;
+}
+
+.dragdrop4-bad {
+    background-color: red !important;
+}
+
+.stackDrop {
+    background-color: #f8f8ef;
+    border: 1px solid;
+    height: 100px;
+}
+
+.stackRow {
+    height: 100px;
+    margin-top: 2px;
+}
+
+.dragDrop4 .drag-target {
+    display: inline-block;
+    position: relative;
+    padding: 2px;
+    border: 2px solid darkred;
+    width: 119px;
+    height: 30px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: white;
+    z-index: 100;
+    /*    display: none;*/
+}
+
+.dragDrop4 .targetsContainer {
+    position: relative;
+    width: 96%;
+    height: auto;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    line-height: 26px;
+    margin-top: 0px;
+}

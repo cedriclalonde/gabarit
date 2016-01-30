@@ -1,0 +1,45 @@
+
+.dragDrop3 .drag-item{
+    float: left;
+    padding: 2px;
+    height: 38px;
+    border: 1px solid;
+    width: 185px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 87%;
+    vertical-align: middle !important;
+}
+
+
+._choiceContainer {
+    position: relative;
+    background-color: #f5f5ce;
+    margin: 10px;
+    padding: 20px;
+}
+
+.dragdrop3-good{
+    opacity: 0.8;
+    color: white !important;
+    background-color: green !important;
+    cursor: default;
+
+}
+
+.dragdrop3-bad{
+    background-color: red !important;
+}
+
+
+.stackDrop{
+    background-color: #f8f8ef;
+    border: 1px solid;
+    height: 100px;
+}
+.stackRow {
+    height: 100px;
+    margin-top: 2px;
+}

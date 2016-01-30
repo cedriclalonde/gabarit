@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!--    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet">-->
+    <link href="../../css/font-awesome.min.css" rel="stylesheet">
+    <link href="../../css/bootstrap-social.css" rel="stylesheet">
+    <link href="../../css/myStyles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+    <link rel="stylesheet" type="text/css" href="../../css/activity/dragdrop1.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/dragdrop2.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/dragdrop3.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/dragdrop4.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/dropdown.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/toggle.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../css/activity/quiz.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/page.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/activity/question.css" />
+
+    <link rel="stylesheet" type="text/css" href="../../css/intro/demo.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/intro/introjs.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <style>
+
+    .introjs-tooltip {
+        max-width: 600px;
+    }
+
+    </style>
+
+    <title>Gabarit</title>
+</head>
+
+<body>
+
+
+
+
+
+
+
+    <div class="containerCustom">
+
+
+
+
+
+        <div id="p1_quiz1" class="cite-quiz" data-number-try="2">
+            <div class="quiz-instructions">
+                Veuillez répondre aux questions suivantes.
+            </div>
+            <div class="quiz-questions">
+
+                <div id="p1_q1" class="cite-question" data-pointage="1" data-type="choix-reponse" data-retroaction="question">
+                    <div class="question-instructions">
+                        Instruction - Choisissez la bonne réponse.
+                    </div>
+                    <div class="question-area">
+                        <div class="container">
+                            <form class="theForm" role="form">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="radioBtn" data-answer='good'>Choix 1 (<strong>bonne réponse</strong>)</label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="radioBtn">Choix 2</label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="radioBtn">Choix 3</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="question-scoreboard">
+                        <div class="retroaction alert alert-success alert-custom">
+                            Retroaction
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="quiz-scoreboard">
+
+                <div class="retroaction alert alert-success">
+                    Retroaction quiz.
+                </div>
+
+                <form class="inline">
+                    <button class="btn btn-success btn-quiz-validation" type="button">Vérifier mes réponses</button>
+                    <button class="btn btn-success btn-quiz-restart" type="button">Recommencez</button>
+                    <button class="btn btn-success btn-quiz-show-answers" type="button">Montrer les réponses</button>
+                </form>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+         <!-- QUIZ WRAPPER-->
+        <div id="p1_quiz1" class="cite-quiz" data-number-try="2">
+            <div class="quiz-instructions">
+                Veuillez répondre aux questions suivantes.
+            </div>
+            <div class="quiz-questions">
+
+                 <!--CHOIX REPONSE-->
+                <div id="p1_q1" class="cite-question" data-pointage="1" data-type="choix-reponse" data-retroaction="question">
+                    <div class="question-instructions">
+                        Instruction - Choisissez la bonne réponse.
+                    </div>
+                    <div class="question-area">
+                        <div class="container">
+                            <form class="theForm" role="form">
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="radioBtn" data-answer='good'>Choix 1 (<strong>bonne réponse</strong>)</label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="radioBtn">Choix 2</label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="radioBtn">Choix 3</label>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="question-scoreboard">
+                        <div class="retroaction alert alert-success alert-custom">
+                            Retroaction
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="quiz-scoreboard">
+
+                <div class="retroaction alert alert-success">
+                    Retroaction quiz.
+                </div>
+
+                <form class="inline">
+                    <!--            <button class="btn btn-success btn-quiz-validation" data-toggle="tooltip" title="Hooray!" type="button">Vérifier mes réponses</button>   -->
+                    <button class="btn btn-success btn-quiz-validation" type="button">Vérifier mes réponses</button>
+                    <button class="btn btn-success btn-quiz-restart" type="button">Recommencez</button>
+                    <button class="btn btn-success btn-quiz-show-answers" type="button">Montrer les réponses</button>
+                </form>
+
+            </div>
+            <!--end .quiz-scoreboard-->
+        </div>
+<!--        FIN QUIZ WRAPPER-->
+
+
+
+
+        <!-- QUIZ WRAPPER-->
+<!--
+        <div id="p1_quiz1" class="cite-quiz" data-number-try="2">
+            <div class="quiz-instructions">
+                Veuillez répondre aux questions suivantes.
+            </div>
+            <div class="quiz-questions">
+
+
+            </div>
+            <div class="quiz-scoreboard">
+
+                <div class="retroaction alert alert-success">
+                    Retroaction quiz.
+                </div>
+
+                <form class="inline">
+                    <button class="btn btn-success btn-quiz-validation" type="button">Vérifier mes réponses</button>
+                    <button class="btn btn-success btn-quiz-restart" type="button">Recommencez</button>
+                    <button class="btn btn-success btn-quiz-show-answers" type="button">Montrer les réponses</button>
+                </form>
+
+            </div>
+        </div>
+-->
+<!--        FIN QUIZ WRAPPER-->
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="../../js/bootstrap.min.js"></script>
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script src="../../js/scorm/SCORM_API_wrapper.js" type="text/javascript"></script>
+    <script src="../../js/scorm/cedScorm.js" type="text/javascript"></script>
+
+    <script src="../../js/main.js"></script>
+    <script src="../../js/events/onDoneEvent.js"></script>
+    <script src="../../js/events/onDoneEventStart.js"></script>
+
+    <script src="../../js/Badges.js"></script>
+    <script src="../../js/Progressions.js"></script>
+    <script src="../../js/onStart.js"></script>
+    <script src="../../js/activity/Video.js"></script>
+    <script src="../../js/Navigation.js"></script>
+
+    <script src="../../js/activity/Quiz.js"></script>
+    <script src="../../js/activity/DragDrop1.js"></script>
+    <script src="../../js/activity/DragDrop2.js"></script>
+    <script src="../../js/activity/DragDrop3.js"></script>
+    <script src="../../js/activity/DragDrop4.js"></script>
+    <script src="../../js/activity/Popover.js"></script>
+    <script src="../../js/activity/Toggle.js"></script>
+    <script src="../../js/activity/ReorderItem.js"></script>
+    <script src="../../js/activity/ChoixMultiple.js"></script>
+    <script src="../../js/activity/ChoixReponse.js"></script>
+    <script src="../../js/activity/Dropdown.js"></script>
+    <script src="../../js/activity/ImageMultipleChoice.js"></script>
+
+
+    <script src="../../js/librairies/intro.js"></script>
+    <script type="text/javascript">
+        function startIntro() {
+            var intro = introJs();
+            intro.setOptions({
+                'skipLabel': 'Fermer',
+                'prevLabel': 'Précédent',
+                'nextLabel': 'Prochain',
+                'doneLabel': 'Terminer',
+
+                steps: [
+                    {
+                        intro: "Pas d'obligation de définir un élément. Ce message est utilisé comme introduction."
+                  },
+                    {
+                        element: document.querySelector('#step1'),
+                        intro: "<p>Ceci est le <i>titre.</i><strong>test!</stong></p><iframe width='280' height='158' src='https://www.youtube.com/embed/lls2dPyEW6o?controls=0'></iframe>"
+                  },
+                    {
+                        element: '#step2',
+                        intro: '<div id="p1_q1" class="cite-question" data-pointage="1" data-type="choix-reponse" data-retroaction="question"><div class="question-instructions">Instruction - Choisissez la bonne réponse.</div><div class="question-area"><div class="container"><form class="theForm" role="form"><div class="radio"><label><input type="radio" name="radioBtn" data-answer="good">Choix 1 (<strong>bonne réponse</strong>)</label></div><div class="radio"><label><input type="radio" name="radioBtn">Choix 2</label></div><div class="radio"><label><input type="radio" name="radioBtn">Choix 3</label></div></form></div></div><div class="question-scoreboard"><div class="retroaction alert alert-success alert-custom">Retroaction</div></div></div>',
+                        position: 'top'
+                  },
+                    {
+                        element: '#step3',
+                        intro: 'Voici les sections 4, 5 et 6.',
+                        position: 'top'
+                  },
+//                    { // element: '#step4', // intro: "Voici un sous-titre.", // position: 'bottom' // },
+                    {
+                        element: '#step5',
+                        intro: '<iframe id="googleMap" src="https://www.google.com/maps/d/u/1/embed?mid=z_-GJoMh8qwg.ksLvp-ZNKyCw" height="400" width="400"></iframe>',
+                        position: 'left'
+                  },
+                    {
+                        element: '#step6',
+                        intro: "Pour plus d'information sur intro.js",
+                        position: 'bottom'
+                  },
+                    {
+                        element: '#step4',
+                        intro: 'More features, more <span style="color: red;">f</span><span style="color: green;">u</span><span style="color: blue;">n</span>.',
+                        position: 'bottom'
+              }
+            ]
+            });
+
+            intro.start();
+
+
+            $('.introjs-helperNumberLayer').css({
+                height: '23px',
+                width: '23px',
+                padding: '0px'
+            });
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

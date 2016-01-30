@@ -1,0 +1,26 @@
+
+#displayPagesFrame{
+    position:absolute;
+    left: 125px;
+    top: 30px;
+    width: 900px;
+    height: 100%;
+}
+
+#menu{
+    position: absolute;
+    top: 40px;
+    width: 100px;
+    height: auto;
+    background-color: #ffffff;
+    /*border: 1px solid;*/
+    text-align: center;
+}
+
+.myLinks{
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+

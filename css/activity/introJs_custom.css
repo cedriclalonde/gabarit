@@ -1,0 +1,22 @@
+.introjs-button{
+/*    display: none !important;*/
+}
+
+.introjs-hint-pulse{
+    background-color: blue !important;
+}
+
+ .introjs-tooltip {
+    max-width: 600px;
+}
+
+
+.introjs-showElement{
+    background-color: white;
+}
+
+.introjs-helperNumberLayer {
+    height: 23px;
+    width: 23px;
+    padding: 0px;
+}
